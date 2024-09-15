@@ -1,0 +1,306 @@
+/* .container-fluid{
+    height:100vh;
+    background-color:;
+  } */
+.row{
+    font-family:'Montserrat',sans-serif;
+   
+  }
+
+  .col1{
+    border:2px solid red;
+    height:100vh;
+    background-color:#f5a267;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .col2{
+    height:100vh;
+    background-color: #b3f567;
+     display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .col3{
+    height:100vh;
+    background-color: #67f56c;
+     display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  #divbox{
+    width:50%;
+    border:3px solid 
+  }
+
+/* Main */
+
+#banner{
+  height:100vh;
+  width:100%;
+ /* background: linear-gradient(90deg, #ffb5a6 50%, rgba(255,255,255,1) 50%); */
+ display:flex;
+  align-items:center;
+  justify-content:center;
+/*   color:#F8D800; */
+}
+
+#banner-col{
+ 
+}
+/* #profession{
+  color: rgba(94,228,255);
+} */
+
+#greet,#name,#prof,.skillsHeading,#skill-type>h4>b{
+  background-image: linear-gradient(90deg, #ff1b6b,#45caff);
+  -webkit-background-clip: text;
+ color: transparent;
+
+
+}
+#greet{
+  font-size:30px;
+  font-weight:bold;
+  text-align:center;
+  }
+#name{
+  font-size:55px;
+  font-weight:700;
+  text-align:center;
+}
+#prof{
+  font-size:35px;
+  font-weight:700;
+  text-align:center;
+}
+/* About me */
+
+
+
+.aboutMeImage{
+  /* background-color:#ffffff; */
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow: hidden;
+  border:5px solid transparent;
+  border-image: linear-gradient(90deg, #ff1b6b,#f8acff) 1;
+}
+
+#aboutHeading{
+   font-size:50px;
+  font-weight:700;
+}
+#myImage{
+  height:80%;
+  
+}
+.frame > div >div > h6{
+  color:#ffffff;
+  font-weight:bold;
+  font-size:1rem;
+  padding: 10px 0px;
+}
+
+#AboutMeSpan{
+  font-family:"Montserrat",sans-serif;
+  font-weight:bold;
+  font-size:0.9rem;
+}
+.data{
+  color:#ffffff;
+ 
+}
+.frame{
+ 
+ display:flex;
+  align-items:center;
+  justify-content:center;
+  color:white;
+  background-image: linear-gradient(90deg, #f8acff,#45caff);
+}
+/* #aboutMe-outer-container{
+
+} */
+
+
+/* Skills */
+
+.skillsHeading{
+  font-size:50px;
+  font-weight:700;
+  width: 50%;
+}
+
+#skill-outer-div{
+ /* background-color: white ; 
+ color:#fa8e78; */
+margin: 40px 0px;
+}
+#skill-name{
+padding:5px 0px 0px;
+font-weight:700;
+}
+#each-skill{
+padding:0px 5% 8px;
+}
+#skill-type{
+padding-bottom:10px;
+}
+#each-skill{
+  color: #8d91ff ;
+}
+
+
+
+#program-outer-div{
+  border:5px solid transparent;
+  border-image: linear-gradient(90deg, #ff1b6b,#f8acff,#45caff) 1;
+  /* filter: blur(5px); */
+ /* box-shadow: 0px 0px 10px 5px  #ff1b6b, 0px 0px 10px 5px #45caff inset; */
+margin: 30px 0px;
+padding: 30px 0px;
+overflow: hidden;
+}
+.progress{
+margin-top:-10px;
+}
+  
+/* Education */
+  
+
+#educationHeading{
+  font-size:40px;
+  font-weight:700;
+  margin: 30px 0px 10px 30px ;
+
+  }
+  #education >h5{
+    font-size:15px;
+    font-weight:700;
+  } 
+  #education >h4{
+    font-size:18px;
+    font-weight:700;
+    
+  }
+  #education >h2{
+    font-weight:700;
+    font-size:23px;
+  }
+  #education{
+    margin:15px 0px;
+    line-height:80%
+  }
+  #EduactionDiv{
+    background-color:#fef5f3b8;
+    color:white;
+    padding:60px 0px;
+  }
+  #EducationInnerDiv{
+    margin:10px 0px;
+    overflow: hidden;
+  }
+
+
+  /* Contact  form */
+  
+  
+  #contactForm{
+    background-color:#ffe3de;
+   padding:70px 0px;
+   overflow: hidden;
+    
+  }
+  
+  #form-field > input{
+    margin-top:20px;
+    height:50px;
+  }
+  #form-field > textarea{
+    margin-top:20px;
+  }
+  #contactFormButton{
+    background-color:#ff6647;
+    font-size:20px;
+    font-weight:500;
+    color:white;
+  }
+  #contactFormBorder{
+    border:4px solid white;
+    box-shadow: 0px 0px 10px 7px #ebe8e8;
+    background-color:#fa8e78;
+    margin:0px 15px;
+    padding:20px 5px;
+  }
+  #contactFormAllFields{
+    margin:30px 0px 10px;
+  }
+  #contactFormHeading{
+    font-weight:700 ;
+    color:white;
+  }
+  #contactFormAllFields > #form-field > input,#contactFormAllFields > #form-field > textarea{
+    font-weight:600;
+  }
+  
+  /* details */
+  
+
+  .contactHeading{
+    font-size:50px;
+    font-weight:700;
+    padding:40px 0px 40px;
+    color:#fa8e78;
+  }
+  #contactItems{
+    padding:40px 0px 60px;
+    background-color: #f4f4f4 ; 
+    overflow: hidden;
+    
+  /*  background-color:#39f7f5; */
+    }
+  .contactIcon{
+    width:100px;
+    height:100px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+  /*   background-color:#11a0ed; */
+    background-color:white;
+    color:white;
+    
+  }
+  .contactBorder{
+   padding:30px 10px 10px;
+  /*   box-shadow: 0px 0px 10px 5px rgba(219,219,219,1); */
+     box-shadow: 0px 0px 10px 5px #fa8e78;
+    border-radius:15px;
+    border:3px solid white;
+    height:100%;
+    background-color:#fa8e78;
+  /*  background-color:white;  */
+  }
+  .contactDetails{
+    padding:20px 0px 0px;
+    
+   }
+  .contactDetails > p{
+  /*   color:#999999; */
+    color:white;
+    font-weight:500 ;
+    font-size: 16px;
+   }
+  .contactName {
+    padding:15px 0px 0px;
+  }
+  .contactName > h4{
+  /*   color:#11a0ed; */
+    color:white;
+  }
+  #contactBox{
+    margin:20px 0px;
+  }
