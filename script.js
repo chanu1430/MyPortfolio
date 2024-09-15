@@ -1,4 +1,4 @@
-const sentences=["Designer","Developer","Programmer","Software Tester"];
+const sentences=["UI/UX Designer","MERN Stack Developer","Programmer","Software Tester"];
 const ele=document.getElementById("profession");
 let sentenceIndex=0;
 let letterIndex=0;
